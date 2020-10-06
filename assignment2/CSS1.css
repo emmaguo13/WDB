@@ -1,0 +1,106 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-size: 100%;
+    overflow-y: scroll;
+    position: absolute;
+}
+
+.header-section {
+    margin: auto;
+    padding: 5% 10% 5% 10%;
+    background-color: lightblue;
+    opacity: 80%;
+}
+
+[class*="compare"] {
+    margin: auto;
+    margin-top: 40px;
+    padding: 0% 20% 0% 20%;
+}
+
+#title {
+    font-style: italic;
+    font-stretch: condensed;
+    font-size: 60px;
+}
+
+.header {
+    text-align: center;
+    color: palevioletred;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    color: rosybrown;
+    font-family: Helvetica;
+    font-style:italic;
+}
+
+#best-table {
+    margin: auto;
+    padding: 5%;
+    margin-top: 20px;
+    background-color: lightblue;
+}
+
+#table-store {
+    font-weight: bold;
+    font-color: lightblue;
+    font-style: italic;
+}
+
+#best-table:hover {
+    padding: 10%;
+}
+
+td {
+    font-family: Helvetica;
+    font-size: 10px;
+}
+
+th {
+    font-family: Helvetica;
+    font-size: 10px;
+}
+
+.list-wrapper {
+    margin: auto;
+    padding: 0% 30% 0% 30%;
+    border: palevioletred 1px;
+}
+
+.text-li {
+    margin-top: 8px;
+    font-family: Helvetica;
+    font-size: 12px;
+}
+
+.explore {
+    margin: auto;
+    margin: 5% 10% 5% 10%;
+    padding: 0% 15% 0% 14%;
+    position: static;
+    display: block;
+}
+
+.img-button {
+    object-fit: cover;
+    margin: auto;
+    position: static;
+}
+
+.img-button:hover {
+    opacity: 70%;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
